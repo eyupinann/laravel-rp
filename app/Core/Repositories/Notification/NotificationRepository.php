@@ -1,6 +1,8 @@
 <?php
-declare(strict_types = 1);
+declare(strict_types=1);
+
 namespace App\Core\Repositories\Notification;
+
 use App\Core\Repositories\AbstractRepository;
 use App\Models\Notification;
 
