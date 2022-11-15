@@ -1,5 +1,5 @@
 <?php
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace App\Core\Repositories;
 
@@ -82,7 +82,7 @@ abstract class AbstractRepository
 
     protected function setDefaultModel(string $className)
     {
-        if( ! $this->defaultModel ){
+        if (!$this->defaultModel) {
             $this->defaultModel = new $className;
         }
     }
