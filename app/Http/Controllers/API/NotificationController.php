@@ -27,7 +27,7 @@ class NotificationController extends Controller
     public function push(NotificationRepository $notificationRepository)
     {
         $result = $notificationRepository->getAll();
-        return Response::withData('true', '',  NotificationResource::collection($result));
+        return Response::withData('true', '', NotificationResource::collection($result));
     }
 
     /**
